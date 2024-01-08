@@ -1,23 +1,35 @@
 //TITLE
 
-const resultElement = document.getElementById(`main-title`)
+const resultElement = document.getElementById('main-title');
 
 //NAME
 
-const Name =  (prompt ( 'Inserisci il tuo Nome'))
-console.log(Name)
-
+const firstName =(prompt ( 'Inserisci il tuo Nome'));
+console.log(firstName);
 
 
 //SURNAME
 
-const Surname =  (prompt ( 'Inserisci il tuo Cognome'))
-console.log(Surname)
+const surname =  (prompt ( 'Inserisci il tuo Cognome'));
+console.log(surname);
 
 
 
 //COLOR
 
-const Color =  (prompt ( 'Inserisci il tuo colore preferito'))
-console.log(Color)
+const color =  (prompt ( 'Inserisci il tuo colore preferito'));
+console.log(color);
+
+
+// PASSWORD GENERATOR
+
+const password = firstName + surname + color + '23';
+console.log(password);
+
+alert ('Sicuro di utilizzare questa password anche se è insicura? La tua passord è'  + password);
+
+
+
+
+
 
